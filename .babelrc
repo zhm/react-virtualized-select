@@ -42,7 +42,6 @@
     },
     "es": {
       "plugins": [
-        "transform-runtime"
       ],
       "presets": [
         "es2015-rollup",
@@ -53,8 +52,7 @@
     "production": {
       "comments": false,
       "plugins": [
-        "transform-react-inline-elements",
-        "transform-runtime"
+        "transform-react-inline-elements"
       ],
       "presets": [
         "es2015",

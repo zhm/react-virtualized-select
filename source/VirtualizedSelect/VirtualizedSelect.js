@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 import Select from 'react-select'
 
 // Import directly to avoid Webpack bundling the parts of react-virtualized that we are not using
-import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer'
-import List from 'react-virtualized/dist/commonjs/List'
+import AutoSizer from 'react-virtualized/out/commonjs/AutoSizer'
+import List from 'react-virtualized/out/commonjs/List'
 
 export default class VirtualizedSelect extends Component {
 
